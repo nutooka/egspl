@@ -1,0 +1,16 @@
+.Home {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+  background-color: $color-white;
+  box-shadow: 0px 5px 8px 0px $color-black;
+
+  &--fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+  }
+}

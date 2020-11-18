@@ -1,0 +1,11 @@
+{
+  "Data": {
+    "Average": "Averaged",
+    "Votes": "Votes"
+  },
+  "Evaluation": {
+    "NamePlaceholder": "Type your name here...",
+    "CommentPlaceholder": "Type a comment here...",
+    "Submit": "Send"
+  }
+}

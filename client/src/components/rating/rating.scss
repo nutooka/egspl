@@ -1,0 +1,39 @@
+.Rating {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+
+  &__Circle {
+    border-radius: 100%;
+
+    &--full {
+      background: $color-purple-soft;
+    }
+
+    &--empty {
+      background: $color-grey;
+    }
+
+    &--editable {
+      cursor: pointer;
+    }
+
+    &--size-small {
+      width: 10px;
+      height: 10px;
+      margin-right: 5px;
+    }
+
+    &--size-medium {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+
+    &--size-large {
+      width: 40px;
+      height: 40px;
+      margin-right: 20px;
+    }
+  }
+}

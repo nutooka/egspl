@@ -1,0 +1,26 @@
+html {
+  font-size: $font-size-browser; // 1rem = 10px
+  box-sizing: border-box;
+  height: 100%;
+}
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-family-primary;
+  font-size: 1.6rem;
+  color: $color-black;
+  background-color: $color-white;
+}
+
+a {
+  text-decoration: none !important;
+  color: $color-purple-dark;
+}
+
+#root {
+  height: 100%;
+}

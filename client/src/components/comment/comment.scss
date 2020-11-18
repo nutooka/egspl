@@ -1,0 +1,10 @@
+.Comment {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 1px 4px rgba($color-black, 0.15);
+
+  &__Message {
+    margin-left: 20px;
+  }
+}

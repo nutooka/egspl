@@ -1,0 +1,13 @@
+.Loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &--fade-out {
+    opacity: 0;
+    animation-name: fadeOutOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+  }
+}

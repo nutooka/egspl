@@ -1,0 +1,25 @@
+.User {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__Image {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+  }
+
+  &__Name {
+    margin-top: 10px;
+  }
+
+  &__Date {}
+}
+
